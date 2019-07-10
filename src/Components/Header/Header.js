@@ -5,7 +5,7 @@ export default class Header extends Component {
     return (
       <header id="home">
         <div className="videobackground">
-          <video src="../video.mp4" autoPlay muted loop />
+          <video src="video.mp4" autoPlay muted loop />
         </div>
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
