@@ -5,9 +5,7 @@ export default class Header extends Component {
     return (
       <header id="home">
         <div className="videobackground">
-          <video autoPlay loop>
-            <source src="../video.mp4" type="video/mp4" />
-          </video>
+          <video src="../video.mp4" autoPlay muted loop />
         </div>
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -17,18 +15,18 @@ export default class Header extends Component {
             Hide navigation
           </a>
           <ul id="nav" className="nav">
-            <li class="current">
-              <a class="smoothscroll" href="#home">
+            <li className="current">
+              <a className="smoothscroll" href="#home">
                 Home
               </a>
             </li>
             <li>
-              <a class="smoothscroll" href="#about">
+              <a className="smoothscroll" href="#about">
                 About
               </a>
             </li>
             <li>
-              <a class="smoothscroll" href="#resume">
+              <a className="smoothscroll" href="#resume">
                 Resume
               </a>
             </li>
